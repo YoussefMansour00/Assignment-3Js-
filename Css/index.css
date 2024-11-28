@@ -1,0 +1,86 @@
+#Home{
+    height: 100vh;
+    background-color: #F7ECDE;
+    overflow: auto;
+}
+header{
+    width: 16.1rem;
+    z-index: 1;
+
+    &:hover .backLayer{
+        height: 2.37rem;
+    }
+}
+.backLayer{
+    position: absolute;
+    background-color:#FEC260 ;
+    height: 1.3rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 3.5rem;
+    font-family: "Pacifico", cursive;
+}
+h4{
+    font-family: "Righteous", sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right ,#3ca55c,#b5ac49 );
+}
+.contentDiv{
+    border-top: black dashed 0.9px;
+    border-bottom: black dashed 0.9px;
+    margin-top: 6rem;
+}
+p{
+    font-family: "PT Sans Caption", sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.seconedPara{
+    margin-top: 2rem;
+}
+button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , 0);
+    background-color: #d1512d;
+    color: #FFFFFF;
+    padding: 0.4rem 3rem;
+    border: none;
+
+    &:hover{
+        background-color: #BB4120;
+    }
+}
+input{
+    border: #ced4da solid 1px;
+}
+.headingTable{
+    background-color: #ced4da;
+}
+.headingTable{
+    background-color: #F8F9FA;
+    padding: 5px;
+}
+li{
+    font-weight: 600;
+    color:#212529;
+    font-size: 1rem;
+    font-family: "PT Sans Caption", sans-serif;
+}
+::selection{
+    background-color: #FEC260;
+}
+#btnDelete{
+    background-color:red;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
